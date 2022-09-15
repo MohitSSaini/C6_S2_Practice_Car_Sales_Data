@@ -55,9 +55,10 @@ select `First_Name`,`City` from `carSales`.`salesperson` where `commission_Rate`
 select `First_Name`,`City` from `carSales`.`salesperson` where `commission_Rate`= '0';
 
 -- Fetch all the salespersons whose name begins with ‘J’.
-select `First_Name` from `carsales`.`salesperson` where `First_Name` Like 'j%';
+select `First_Name` from `carSales`.`salesperson` where `First_Name` Like 'j%';
 
 -- Retrieve all the salespersons from London, New York, and San Jose.
+select `First_Name` from `carSales`.`salesperson` where `City`in ('London', 'New York','San Jose');
 
 -- Find the average commission rate of a salesperson.
 
