@@ -34,7 +34,7 @@ insert into `carSales`.`salesperson` values (1005,'James','London', 26);
 insert into `carSales`.`salesperson` values (1008,'Charles', 'Florida', 0);
 
 -- fetch all the details of the sales persons
-
+select * from `carSales`.`salesperson`;
 
 -- retrieve the salesperson with the first name Robin and city Barcelona.
 
