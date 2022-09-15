@@ -1,5 +1,5 @@
 -- create the 'CarSales' database
-Create database if not exists `Carsales`;
+Create database if not exists `CarSales`;
 
 -- use the 'CarSales' database
 use `carSales`;
@@ -64,5 +64,6 @@ select `First_Name` from `carSales`.`salesperson` where `City`in ('London', 'New
 select avg (`Commission_Rate`) from `carSales`.`salesperson`;
 
 -- Retrieve the names of all the salespersons with a commission rate of 10, 11, 12, and 13.
+select `First_name` from `carSales`.`salesperson` where `Commission_Rate` in (10,11,12,13);
 
 -- Find the salesperson and city that has the maximum commission rate.

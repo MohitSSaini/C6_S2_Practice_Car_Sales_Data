@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0dd1bce-90f1-448a-84cd-8cebf4bb8335" name="Changes" comment="Fetch all the salespersons whose name begins with ‘J’ car_sales_data_queries.sql">
+    <list default="true" id="f0dd1bce-90f1-448a-84cd-8cebf4bb8335" name="Changes" comment="Find the average commission rate of a salesperson.car_sales_data_queries.sql">
       <change beforePath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663234461017</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Retrieve all the salespersons from London, New York, and San Jose.car_sales_data_queries.sql">
+      <created>1663234587277</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663234587277</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Find the average commission rate of a salesperson.car_sales_data_queries.sql">
+      <created>1663234864092</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663234864092</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +214,9 @@
     <MESSAGE value="-- Retrieve the first name and city of salespersons who have a commission rate of more than 25. car_sales_data_queries.sql" />
     <MESSAGE value="Get the first name and city of salespersons who have a commission rate as 0. car_sales_data_queries.sql" />
     <MESSAGE value="Fetch all the salespersons whose name begins with ‘J’ car_sales_data_queries.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fetch all the salespersons whose name begins with ‘J’ car_sales_data_queries.sql" />
+    <MESSAGE value="Retrieve all the salespersons from London, New York, and San Jose.car_sales_data_queries.sql" />
+    <MESSAGE value="Find the average commission rate of a salesperson.car_sales_data_queries.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find the average commission rate of a salesperson.car_sales_data_queries.sql" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
