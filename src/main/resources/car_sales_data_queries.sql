@@ -52,6 +52,7 @@ select * from `carSales`.`salesperson` where `commission_Rate` between 10 and 15
 select `First_Name`,`City` from `carsales`.`salesperson` where `commission_Rate` > '25';
 
 -- Get the first name and city of salespersons who have a commission rate as 0.
+select `First_Name`,`City` from `carsales`.`salesperson` where `commission_Rate`= '0';
 
 -- Fetch all the salespersons whose name begins with ‘J’.
 
