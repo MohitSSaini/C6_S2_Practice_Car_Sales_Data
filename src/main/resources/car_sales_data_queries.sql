@@ -3,11 +3,19 @@ Create database if not exists `Carsales`;
 
 -- use the 'CarSales' database
 use `carSales`;
+
 -- create the 'SalesPerson' table with the following columns:
 -- 'SalesID'
 -- 'FirstName'
 -- 'City'
 -- 'CommissionRate'
+create table if not exists `SalesPerson`(
+`Sale_ID` int not null primary key,
+`First_Name` varchar (40) not null,
+`city` varchar(20) not null,
+`commission_rate` int not null
+);
+
 
 -- insert the following records into the 'SalesPerson' table:
 -- 1001, John, London, 12
