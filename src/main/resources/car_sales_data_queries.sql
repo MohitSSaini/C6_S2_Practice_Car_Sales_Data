@@ -2,7 +2,7 @@
 Create database if not exists `Carsales`;
 
 -- use the 'CarSales' database
-
+use `carSales`;
 -- create the 'SalesPerson' table with the following columns:
 -- 'SalesID'
 -- 'FirstName'

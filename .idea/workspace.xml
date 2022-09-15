@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0dd1bce-90f1-448a-84cd-8cebf4bb8335" name="Changes" comment="create the car_sales_data_queries.sql in resource file">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" afterDir="false" />
-    </list>
+    <list default="true" id="f0dd1bce-90f1-448a-84cd-8cebf4bb8335" name="Changes" comment="create a database carSales" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663226605826</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create the data car_sales_data_queries.sql in resource file">
+      <created>1663226994981</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663226994981</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create a database carSales">
+      <created>1663231765723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663231765723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,7 +93,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="change the source target version 18 to 11 maven pom.xml" />
     <MESSAGE value="create the car_sales_data_queries.sql in resource file" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the car_sales_data_queries.sql in resource file" />
+    <MESSAGE value="create the data car_sales_data_queries.sql in resource file" />
+    <MESSAGE value="create a database carSales" />
+    <option name="LAST_COMMIT_MESSAGE" value="create a database carSales" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
