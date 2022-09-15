@@ -46,6 +46,7 @@ select `City`,`Commission_Rate` from `carSales`.`salesPerson` where `First_Name`
 select * from `carSales`.`salesperson` where `commission_Rate` >15;
 
 -- Fetch all the details of salespersons with a commission rate between 10 and 20.
+select * from `carSales`.`salesperson` where `commission_Rate` between 10 and 15 ;
 
 -- Retrieve the first name and city of salespersons who have a commission rate of more than 25.
 

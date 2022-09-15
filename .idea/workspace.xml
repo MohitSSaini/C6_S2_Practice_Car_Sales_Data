@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0dd1bce-90f1-448a-84cd-8cebf4bb8335" name="Changes" comment="retrieve the salesperson with the first name Robin and city Barcelona.\">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" afterDir="false" />
-    </list>
+    <list default="true" id="f0dd1bce-90f1-448a-84cd-8cebf4bb8335" name="Changes" comment="-- Fetch all the details of salespersons with a commission rate between 10 and 20." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +110,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663233300054</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="get the city and commission rate of John car_sales_data_queries.sql">
+      <created>1663233621703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663233621703</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fetch all the details of salespersons with a commission rate greater than 15 car_sales_data_queries.sql">
+      <created>1663233838799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663233838799</updated>
+    </task>
+    <task id="LOCAL-00013" summary="-- Fetch all the details of salespersons with a commission rate between 10 and 20.">
+      <created>1663233907653</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663233907653</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +156,10 @@
     <MESSAGE value="insert the following records into the 'SalesPerson' table: in car_sales_data_queries.sql" />
     <MESSAGE value="fetch all the details of the sales persons&#10;select" />
     <MESSAGE value="retrieve the salesperson with the first name Robin and city Barcelona.\" />
-    <option name="LAST_COMMIT_MESSAGE" value="retrieve the salesperson with the first name Robin and city Barcelona.\" />
+    <MESSAGE value="get the city and commission rate of John car_sales_data_queries.sql" />
+    <MESSAGE value="Fetch all the details of salespersons with a commission rate greater than 15 car_sales_data_queries.sql" />
+    <MESSAGE value="-- Fetch all the details of salespersons with a commission rate between 10 and 20." />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Fetch all the details of salespersons with a commission rate between 10 and 20." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
