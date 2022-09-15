@@ -36,7 +36,8 @@ insert into `carSales`.`salesperson` values (1008,'Charles', 'Florida', 0);
 -- fetch all the details of the sales persons
 select * from `carSales`.`salesperson`;
 
--- retrieve the salesperson with the first name Robin and city Barcelona.
+-- retrieve the salesperson with the first name Robin and city Barcelona.\
+select * from `carSales`.`salesPerson` where `First_Name` = 'Robin' && `City` = 'Barcelona';
 
 -- get the city and commission rate of John
 
