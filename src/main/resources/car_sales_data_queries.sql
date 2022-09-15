@@ -49,12 +49,13 @@ select * from `carSales`.`salesperson` where `commission_Rate` >15;
 select * from `carSales`.`salesperson` where `commission_Rate` between 10 and 15 ;
 
 -- Retrieve the first name and city of salespersons who have a commission rate of more than 25.
-select `First_Name`,`City` from `carsales`.`salesperson` where `commission_Rate` > '25';
+select `First_Name`,`City` from `carSales`.`salesperson` where `commission_Rate` > '25';
 
 -- Get the first name and city of salespersons who have a commission rate as 0.
-select `First_Name`,`City` from `carsales`.`salesperson` where `commission_Rate`= '0';
+select `First_Name`,`City` from `carSales`.`salesperson` where `commission_Rate`= '0';
 
 -- Fetch all the salespersons whose name begins with ‘J’.
+select `First_Name` from `carsales`.`salesperson` where `First_Name` Like 'j%';
 
 -- Retrieve all the salespersons from London, New York, and San Jose.
 
