@@ -1,4 +1,5 @@
 -- create the 'CarSales' database
+Create database if not exists `Carsales`;
 
 -- use the 'CarSales' database
 
