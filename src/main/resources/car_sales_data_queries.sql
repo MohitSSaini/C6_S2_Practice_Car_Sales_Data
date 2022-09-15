@@ -61,6 +61,7 @@ select `First_Name` from `carSales`.`salesperson` where `First_Name` Like 'j%';
 select `First_Name` from `carSales`.`salesperson` where `City`in ('London', 'New York','San Jose');
 
 -- Find the average commission rate of a salesperson.
+select avg (`Commission_Rate`) from `carSales`.`salesperson`;
 
 -- Retrieve the names of all the salespersons with a commission rate of 10, 11, 12, and 13.
 
