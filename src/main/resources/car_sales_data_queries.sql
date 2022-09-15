@@ -19,14 +19,22 @@ create table if not exists `SalesPerson`(
 
 -- insert the following records into the 'SalesPerson' table:
 -- 1001, John, London, 12
+insert into `carSales`.`salesperson` values (1001, 'John', 'London', 12)
 -- 1002, Bob, San Jose, 13
+insert into `carSales`.`salesperson` values (1002, 'Bob', 'San Jose', 13);
 -- 1004, Judith, London, 11
+insert into `carSales`.`salesperson` values (1004, 'Judith', 'London', 11);
 -- 1007, Robin, Barcelona, 15
+insert into `carSales`.`salesperson` values (1007, 'Robin', 'Barcelona', 15);
 -- 1003, Harry, New York, 10
+insert into `carSales`.`salesperson` values (1003,'Harry', 'New York', 10);
 -- 1005, James, London, 26
+insert into `carSales`.`salesperson` values (1005,'James','London', 26);
 -- 1008, Charles, Florida, 0
+insert into `carSales`.`salesperson` values (1008,'Charles', 'Florida', 0);
 
 -- fetch all the details of the sales persons
+
 
 -- retrieve the salesperson with the first name Robin and city Barcelona.
 
