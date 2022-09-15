@@ -16,7 +16,6 @@ create table if not exists `SalesPerson`(
 `commission_rate` int not null
 );
 
-
 -- insert the following records into the 'SalesPerson' table:
 -- 1001, John, London, 12
 insert into `carSales`.`salesperson` values (1001, 'John', 'London', 12)
@@ -67,3 +66,4 @@ select avg (`Commission_Rate`) from `carSales`.`salesperson`;
 select `First_name` from `carSales`.`salesperson` where `Commission_Rate` in (10,11,12,13);
 
 -- Find the salesperson and city that has the maximum commission rate.
+select max(`Commission_rate`),`First_Name`,`City` from `carSales`.`salesperson`;
