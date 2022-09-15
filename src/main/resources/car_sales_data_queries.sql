@@ -43,6 +43,7 @@ select * from `carSales`.`salesPerson` where `First_Name` = 'Robin' && `City` = 
 select `City`,`Commission_Rate` from `carSales`.`salesPerson` where `First_Name`='John';
 
 -- Fetch all the details of salespersons with a commission rate greater than 15
+select * from `carSales`.`salesperson` where `commission_Rate` >15;
 
 -- Fetch all the details of salespersons with a commission rate between 10 and 20.
 
